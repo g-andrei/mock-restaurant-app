@@ -1,0 +1,12 @@
+.social-icon {
+  display: inline-flex;
+  width: 36px;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon--with-bg {
+  background-color: white;
+  border-radius: 2px;
+}

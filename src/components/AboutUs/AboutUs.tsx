@@ -1,0 +1,82 @@
+import { useTranslation } from 'react-i18next';
+import { Check } from 'src/assets/Icons';
+import { useTheme } from 'styled-components';
+
+import aboutUsEggs from 'src/assets/images/aboutUsEggs.png';
+import aboutUsSandwich from 'src/assets/images/aboutUsSandwich.png';
+import aboutUsSauce from 'src/assets/images/aboutUsSauce.png';
+
+import { Button, Icon, Typography, TYPOGRAPHY_CONSTANTS } from 'src/components';
+import { highlightFirstLetters } from 'src/utils/textHelpers';
+
+import {
+  StyledAboutUsContainer,
+  StyledAboutUsLeft,
+  StyledAboutUsRight,
+  StyledCheckRow,
+  StyledContentStack,
+  StyledFullWidthImage,
+  StyledHalfImagesRow,
+  StyledHalfWidthImage,
+  StyledTextStack
+} from './AboutUs.styled';
+
+const { smText, h2, handText } = TYPOGRAPHY_CONSTANTS;
+
+const AboutUs = () => {
+  const { t } = useTranslation();
+  const theme = useTheme();
+
+  const aboutUsCheckItems = ['aboutUs.text1', 'aboutUs.text2', 'aboutUs.text3'];
+
+  return (
+    <StyledAboutUsContainer>
+      <StyledAboutUsLeft>
+        <Typography variant={handText} style={{ color: theme.colors.primary }}>
+          {t('aboutUs')}
+        </Typography>
+
+        <StyledContentStack>
+          <Typography variant={h2}>
+            {highlightFirstLetters(t('aboutUs.title'))}
+          </Typography>
+
+          <StyledTextStack>
+            <Typography variant={smText}>{t('aboutUs.body-text')}</Typography>
+
+            {aboutUsCheckItems.map((key) => (
+              <StyledCheckRow key={key}>
+                <Icon IconComponent={Check} />
+                <Typography variant={smText}>{t(key)}</Typography>
+              </StyledCheckRow>
+            ))}
+          </StyledTextStack>
+
+          <div>
+            <Button rounded>{t('button.see-menu')}</Button>
+          </div>
+        </StyledContentStack>
+      </StyledAboutUsLeft>
+
+      <StyledAboutUsRight>
+        <StyledFullWidthImage
+          src={aboutUsEggs}
+          alt="About us eggs"
+        />
+
+        <StyledHalfImagesRow>
+          <StyledHalfWidthImage
+            src={aboutUsSauce}
+            alt="About us sauce"
+          />
+          <StyledHalfWidthImage
+            src={aboutUsSandwich}
+            alt="About us sandwich"
+          />
+        </StyledHalfImagesRow>
+      </StyledAboutUsRight>
+    </StyledAboutUsContainer>
+  );
+};
+
+export default AboutUs;
