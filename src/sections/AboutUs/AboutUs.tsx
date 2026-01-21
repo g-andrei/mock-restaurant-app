@@ -2,11 +2,12 @@ import { useTranslation } from 'react-i18next';
 import { Check } from 'src/assets/Icons';
 import { useTheme } from 'styled-components';
 
-import aboutUsEggs from 'src/assets/images/aboutUsEggs.png';
-import aboutUsSandwich from 'src/assets/images/aboutUsSandwich.png';
-import aboutUsSauce from 'src/assets/images/aboutUsSauce.png';
+import aboutUsEggs from 'src/assets/Images/about-us-eggs.png';
+import aboutUsSandwich from 'src/assets/Images/about-us-sandwich.png';
+import aboutUsSauce from 'src/assets/Images/about-us-sauce.png';
 
-import { Button, Icon, Typography, TYPOGRAPHY_CONSTANTS } from 'src/components';
+import { Button, Icon, Typography } from 'src/components';
+import { TYPOGRAPHY_CONSTANTS } from 'src/components/Typography';
 import { highlightFirstLetters } from 'src/utils/textHelpers';
 
 import {

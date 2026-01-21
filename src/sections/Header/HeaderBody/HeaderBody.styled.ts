@@ -6,6 +6,7 @@ export const StyledHeaderBodyContainer = styled.div(({ theme }) => {
     display: flex;
     align-items: center;
     gap: ${spacings.s32};
+    padding: 0 ${spacings.s300};
   `;
 });
 
