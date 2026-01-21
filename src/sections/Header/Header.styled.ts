@@ -1,8 +1,7 @@
-import headerHeroBackground from 'src/assets/images/headerHeroBackground.png';
+import headerHeroBackground from 'src/assets/Images/header-hero-background.png';
 import styled from 'styled-components';
 
 export const StyledHeaderContainer = styled.div`
-  padding: 0 300px;
   position: relative;
   background-image: url(${headerHeroBackground});
   background-size: cover;
@@ -23,3 +22,4 @@ export const StyledHeaderContainer = styled.div`
     z-index: 2;
   }
 `;
+
