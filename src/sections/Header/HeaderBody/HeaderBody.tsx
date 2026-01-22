@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import headerHero from 'src/assets/Images/header-hero.png';
+import { headerHero } from 'src/assets/Images';
 
 import {
   Button,

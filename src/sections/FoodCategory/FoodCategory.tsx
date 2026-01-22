@@ -1,11 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { useTheme } from 'styled-components';
 
-import categoryBurgers from 'src/assets/Images/category-burgers.png';
-import categoryDesserts from 'src/assets/Images/category-desserts.png';
-import categoryMain from 'src/assets/Images/category-main.png';
-import categorySalads from 'src/assets/Images/category-salads.png';
-
+import { categoryBurgers, categoryDesserts, categoryMain, categorySalads } from 'src/assets/Images';
 import { Typography } from 'src/components';
 import { TYPOGRAPHY_CONSTANTS } from 'src/components/Typography';
 import { highlightFirstLetters } from 'src/utils/textHelpers';

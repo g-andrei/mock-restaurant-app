@@ -1,4 +1,4 @@
-import headerHeroBackground from 'src/assets/Images/header-hero-background.png';
+import { headerHeroBackground } from 'src/assets/Images';
 import styled from 'styled-components';
 
 export const StyledHeaderContainer = styled.div`
