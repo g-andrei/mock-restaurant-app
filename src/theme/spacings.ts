@@ -5,6 +5,7 @@ const spacings: Spacings = {
   s8: '8px',
   s12: '12px',
   s16: '16px',
+  s22: '22px',
   s24: '24px',
   s32: '32px',
   s40: '40px',

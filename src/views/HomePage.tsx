@@ -1,4 +1,4 @@
-import { AboutUs, FoodCategory, Header } from 'src/sections';
+import { AboutUs, FoodCategory, Header, WhyChooseUs } from 'src/sections';
 
 const HomePage = () => {
   return (
@@ -6,6 +6,7 @@ const HomePage = () => {
       <Header />
       <AboutUs />
       <FoodCategory />
+      <WhyChooseUs />
     </>
   );
 };

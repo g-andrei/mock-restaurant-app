@@ -2,9 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Check } from 'src/assets/Icons';
 import { useTheme } from 'styled-components';
 
-import aboutUsEggs from 'src/assets/Images/about-us-eggs.png';
-import aboutUsSandwich from 'src/assets/Images/about-us-sandwich.png';
-import aboutUsSauce from 'src/assets/Images/about-us-sauce.png';
+import { aboutUsEggs, aboutUsSandwich, aboutUsSauce } from 'src/assets/Images';
 
 import { Button, Icon, Typography } from 'src/components';
 import { TYPOGRAPHY_CONSTANTS } from 'src/components/Typography';
