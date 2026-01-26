@@ -28,25 +28,25 @@ const FoodCategory = () => {
     {
       id: 'main',
       image: categoryMain,
-      alt: t('foodCategory.main.alt'),
+      alt: t('foodCategory.mainAlt'),
       hasDiscount: true,
       discountValue: 30,
-      label: t('foodCategory.main.label')
+      label: t('foodCategory.mainLabel')
     },
     {
       id: 'burgers',
       image: categoryBurgers,
-      alt: t('foodCategory.burgers.alt')
+      alt: t('foodCategory.burgersAlt')
     },
     {
       id: 'salads',
       image: categorySalads,
-      alt: t('foodCategory.salads.alt')
+      alt: t('foodCategory.saladsAlt')
     },
     {
       id: 'desserts',
       image: categoryDesserts,
-      alt: t('foodCategory.desserts.alt')
+      alt: t('foodCategory.dessertsAlt')
     }
   ];
 

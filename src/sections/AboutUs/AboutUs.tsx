@@ -41,7 +41,7 @@ const AboutUs = () => {
           </Typography>
 
           <StyledTextStack>
-            <Typography variant={smText}>{t('aboutUs.body-text')}</Typography>
+            <Typography variant={smText}>{t('aboutUs.bodyText')}</Typography>
 
             {aboutUsCheckItems.map((key) => (
               <StyledCheckRow key={key}>
@@ -52,7 +52,7 @@ const AboutUs = () => {
           </StyledTextStack>
 
           <div>
-            <Button rounded>{t('button.see-menu')}</Button>
+            <Button rounded>{t('button.seeMenu')}</Button>
           </div>
         </StyledContentStack>
       </StyledAboutUsLeft>

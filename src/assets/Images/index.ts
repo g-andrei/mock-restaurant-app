@@ -13,3 +13,8 @@ export { default as headerHero } from './Header/header-hero.png';
 export { default as foodCollageWhyChooseUs } from './WhyChooseUs/food-colage-why-choose-us.png';
 
 export { default as achievementBackground } from './Achievemnt/acvhievemnt-background.png';
+
+export {default as chefEastwood} from './OurChefs/chef-eastwood.png';
+export {default as chefReadfroad} from './OurChefs/chef-readfroad.png';
+export {default as chefScoriesh} from './OurChefs/chef-scoriesh.png';
+export {default as chefWilliam} from './OurChefs/chef-william.png';

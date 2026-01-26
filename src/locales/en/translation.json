@@ -1,30 +1,31 @@
 {
-  "hello-world": "Hello Worlds!",
+  "helloWorld": "Hello Worlds!",
 
   "bussiness.name": "Foodtuck",
 
   "welcome": "Welcome to our application!",
 
-  "button.see-menu": "See Menu",
+  "button.seeMenu": "See Menu",
+  "button.seeMore": "See More",
 
-  "header.hero-title": "The Art of speed food Quality",
-  "header.hero-subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius sed pharetra dictum neque massa congue.",
+  "header.heroTitle": "The Art of speed food Quality",
+  "header.heroSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius sed pharetra dictum neque massa congue.",
 
   "aboutUs": "About us",
   "aboutUs.title": "We Create the best foody product",
-  "aboutUs.body-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+  "aboutUs.bodyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
   "aboutUs.text1": "Lacus nisi, et ac dapibus sit eu velit in consequat.",
   "aboutUs.text2": " Quisque diam pellentesque bibendum non dui volutpat fringilla ",
   "aboutUs.text3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 
   "foodCategory.subtitle": "Food Category",
   "foodCategory.title": "Choose Food Item",
-  "foodCategory.main.alt": "Main dish",
+  "foodCategory.mainAlt": "Main dish",
   "foodCategory.discount": "Save {{discount}}%",
-  "foodCategory.main.label": "Fast Food Dish",
-  "foodCategory.burgers.alt": "Burgers",
-  "foodCategory.salads.alt": "Salads",
-  "foodCategory.desserts.alt": "Desserts",
+  "foodCategory.mainLabel": "Fast Food Dish",
+  "foodCategory.burgersAlt": "Burgers",
+  "foodCategory.saladsAlt": "Salads",
+  "foodCategory.dessertsAlt": "Desserts",
 
   "whyChooseuse.title": "Why Choose us",
   "whyChooseuse.headline": "Extra ordinary taste And Experienced",
@@ -39,5 +40,17 @@
   "achievement.professionalChefs": "Professional Chefs",
   "achievement.itemsOfFood": "Items Of Food",
   "achievement.yearsOfExperienced": "Years Of Experienced",
-  "achievement.happyCustomers": "Happy Customers"
+  "achievement.happyCustomers": "Happy Customers",
+
+  "ourChef.meetOurChefs": "Meet Our Chefs",
+  "ourChef.nameEastwood": "D.Eastwood",
+  "ourChef.nameReadfroad": " W.Readfroad",
+  "ourChef.nameScoriesh": "D.Scoriesh",
+  "ourChef.nameWilliam": "M.William",
+  "ourChef.positionAdvertisingChef": "Advertising Chef",
+  "ourChef.positionAssistantChef": "Assistant Chef",
+  "ourChef.positionChef": "Chef",
+  "ourChef.positionChiefChef": "Chief Chef",
+  "ourChef.positionHeadChef": "Head Chef",
+  "ourChef.title": "Chefs"
 }

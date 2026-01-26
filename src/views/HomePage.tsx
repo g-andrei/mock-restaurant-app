@@ -3,6 +3,7 @@ import {
   Achievement,
   FoodCategory,
   Header,
+  OurChef,
   WhyChooseUs
 } from 'src/sections';
 
@@ -14,6 +15,7 @@ const HomePage = () => {
       <FoodCategory />
       <WhyChooseUs />
       <Achievement />
+      <OurChef />
     </>
   );
 };
