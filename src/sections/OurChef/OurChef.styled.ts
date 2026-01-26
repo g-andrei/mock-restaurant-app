@@ -4,7 +4,6 @@ export const StyledOurChefContainer = styled.div(({ theme }) => {
   const { colors, spacings } = theme;
 
   return css`
-    width: 100%;
     background-color: ${colors.background};
     display: flex;
     flex-direction: column;
@@ -18,10 +17,8 @@ export const StyledOurChef = styled.div(({ theme }) => {
   const { spacings } = theme;
 
   return css`
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: ${spacings.s48};
+    display: flex;
+    gap: ${spacings.s24};
   `;
 });
 
@@ -30,15 +27,11 @@ export const StyledChefCard = styled.div(({ theme }) => {
 
   return css`
     position: relative;
-    width: 100%;
-    border-radius: ${radii.s6};
-    overflow: hidden;
   `;
 });
 
 export const StyledChefCardImage = styled.img`
   width: 100%;
-
   display: block;
 `;
 
