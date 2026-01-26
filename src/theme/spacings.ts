@@ -14,6 +14,7 @@ const spacings: Spacings = {
   s72: '72px',
   s80: '80px',
   s96: '96px',
+  s110: '110px',
   s120: '120px',
   s300: '300px'
 };
