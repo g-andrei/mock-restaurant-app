@@ -11,3 +11,5 @@ export { default as headerHeroBackground } from './Header/header-hero-background
 export { default as headerHero } from './Header/header-hero.png';
 
 export { default as foodCollageWhyChooseUs } from './WhyChooseUs/food-colage-why-choose-us.png';
+
+export { default as achievementBackground } from './Achievemnt/acvhievemnt-background.png';
