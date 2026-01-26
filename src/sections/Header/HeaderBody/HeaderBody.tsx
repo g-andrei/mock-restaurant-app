@@ -38,12 +38,12 @@ const HeaderBody = () => {
 
       <StyledHeaderBodyContent>
         <Typography variant={h1} style={{ color: 'white' }}>
-          {t('header.hero-title')}
+          {t('header.heroTitle')}
         </Typography>
         <Typography variant="smText" style={{ color: 'white' }}>
-          {t('header.hero-subtitle')}
+          {t('header.heroSubtitle')}
         </Typography>
-        <Button rounded>{t('button.see-menu')}</Button>
+        <Button rounded>{t('button.seeMenu')}</Button>
       </StyledHeaderBodyContent>
       <div>
         <img

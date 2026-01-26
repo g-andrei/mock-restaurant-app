@@ -1,5 +1,5 @@
 import { achievementBackground } from 'src/assets/Images';
-import { css, styled } from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const StyledAchievementBackground = styled.div(() => {
   return css`

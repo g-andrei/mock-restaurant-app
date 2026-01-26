@@ -5,7 +5,7 @@ const colors: Colors = {
   secondary: '#FAF7F2',
   white: '#FFFFFF',
   black: { b1: '#1E1E1E', b2: '#1D1D1D', b3: '#282828' },
-  background: '#0D0D0D',
+  background: '#0d0d0d',
   grey: {
     g1: '#333333',
     g2: '#4F4F4F',
