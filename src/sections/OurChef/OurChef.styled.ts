@@ -22,9 +22,7 @@ export const StyledOurChef = styled.div(({ theme }) => {
   `;
 });
 
-export const StyledChefCard = styled.div(({ theme }) => {
-  const { radii } = theme;
-
+export const StyledChefCard = styled.div(() => {
   return css`
     position: relative;
   `;
@@ -36,7 +34,7 @@ export const StyledChefCardImage = styled.img`
 `;
 
 export const StyledChefCardOverlay = styled.div(({ theme }) => {
-  const { colors, spacings } = theme;
+  const { colors, spacings, radii } = theme;
 
   return css`
     position: absolute;
@@ -45,5 +43,6 @@ export const StyledChefCardOverlay = styled.div(({ theme }) => {
     padding: ${spacings.s8} ${spacings.s32};
     display: flex;
     flex-direction: column;
+    border-bottom-left-radius: ${radii.s6};
   `;
 });
