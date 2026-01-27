@@ -81,7 +81,7 @@ const OurChef = () => {
         ))}
       </StyledOurChef>
 
-      <Button rounded variant={BUTTON_VARIANT.secondary}>
+      <Button rounded variant={BUTTON_VARIANT.tertiary}>
         {t('button.seeMore')}
       </Button>
     </StyledOurChefContainer>

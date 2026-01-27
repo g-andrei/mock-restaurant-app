@@ -16,7 +16,9 @@ export const StyledButton = styled.button<StyledButtonProps>`
       transition: 0.5s;
       background-color: ${variant === BUTTON_VARIANT.secondary
         ? colors.white
-        : colors.primary};
+        : variant === BUTTON_VARIANT.tertiary
+          ? 'transparent'
+          : colors.primary};
 
       color: ${variant === BUTTON_VARIANT.secondary
         ? colors.primary
