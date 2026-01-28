@@ -1,12 +1,7 @@
 import { useTranslation } from 'react-i18next';
-import {
-  chefEastwood,
-  chefReadfroad,
-  chefScoriesh,
-  chefWilliam
-} from 'src/assets/Images';
 import { Button, Typography, TYPOGRAPHY_CONSTANTS } from 'src/components';
 import { BUTTON_VARIANT } from 'src/components/Button';
+import { chefsMockData } from 'src/mocks';
 import { highlightFirstLetters } from 'src/utils/textHelpers';
 import { useTheme } from 'styled-components';
 import {
@@ -23,34 +18,6 @@ const OurChef = () => {
   const { t } = useTranslation();
   const theme = useTheme();
 
-  const ourChefs = [
-    {
-      img: chefEastwood,
-      alt: t('ourChef.nameEastwood'),
-      name: t('ourChef.nameEastwood'),
-      position: t('ourChef.positionChiefChef')
-    },
-
-    {
-      img: chefScoriesh,
-      alt: t('ourChef.nameScoriesh'),
-      name: t('ourChef.nameScoriesh'),
-      position: t('ourChef.positionAssistantChef')
-    },
-    {
-      img: chefWilliam,
-      alt: t('ourChef.nameWilliam'),
-      name: t('ourChef.nameWilliam'),
-      position: t('ourChef.positionAdvertisingChef')
-    },
-    {
-      img: chefReadfroad,
-      alt: t('ourChef.nameReadfroad'),
-      name: t('ourChef.nameReadfroad'),
-      position: t('ourChef.positionChef')
-    }
-  ];
-
   return (
     <StyledOurChefContainer>
       <Typography variant={handText} style={{ color: theme.colors.primary }}>
@@ -60,21 +27,21 @@ const OurChef = () => {
         {highlightFirstLetters(t('ourChef.meetOurChefs'))}
       </Typography>
       <StyledOurChef>
-        {ourChefs.map((chef) => (
+        {chefsMockData.map((chef) => (
           <StyledChefCard key={chef.name}>
-            <StyledChefCardImage src={chef.img} alt={chef.alt} />
+            <StyledChefCardImage src={chef.img} alt={t(chef.alt)} />
             <StyledChefCardOverlay>
               <Typography
                 variant={h5}
                 style={{ color: theme.colors.black.b1, fontWeight: 'bold' }}
               >
-                {chef.name}
+                {t(chef.name)}
               </Typography>
               <Typography
                 variant={lgText}
                 style={{ color: theme.colors.black.b1 }}
               >
-                {chef.position}
+                {t(chef.position)}
               </Typography>
             </StyledChefCardOverlay>
           </StyledChefCard>
