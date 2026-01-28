@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
 export const StyledNavBarContainer = styled.nav(({ theme }) => {
-  const { colors, spacings } = theme;
+  const { spacings } = theme;
 
   return css`
     width: 100%;
@@ -23,15 +23,22 @@ export const StyledNavLinks = styled.ul(({ theme }) => {
   `;
 });
 
-export const StyledNavLink = styled.li<{ $isActive?: boolean; $hasDropdown?: boolean }>(({ theme, $isActive, $hasDropdown }) => {
+export const StyledNavLink = styled.li`
+  list-style: none;
+`;
+
+export const StyledNavButton = styled.button<{
+  $isActive?: boolean;
+}>(({ theme, $isActive }) => {
   const { colors, spacings } = theme;
 
   return css`
-    position: relative;
     display: flex;
     align-items: center;
     gap: ${spacings.s4 || '4px'};
+    background: transparent;
     cursor: pointer;
+    transition: all 0.3s ease;
 
     ${$isActive &&
     css`
@@ -47,22 +54,6 @@ export const StyledNavLink = styled.li<{ $isActive?: boolean; $hasDropdown?: boo
         border-radius: 50%;
       }
     `}
-  `;
-});
-
-
-
-export const StyledBrandText = styled.span<{ $isHighlighted?: boolean }>(({ theme, $isHighlighted }) => {
-  const { colors } = theme;
-
-  return css`
-    ${$isHighlighted
-      ? css`
-          color: ${colors.primary};
-        `
-      : css`
-          color: ${colors.white};
-        `}
   `;
 });
 
