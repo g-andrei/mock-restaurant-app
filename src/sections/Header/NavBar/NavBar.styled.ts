@@ -33,8 +33,8 @@ export const StyledNavButton = styled.button<{
   const { colors, spacings } = theme;
 
   return css`
-    display: flex;
-    align-items: center;
+  
+    position: relative;
     gap: ${spacings.s4 || '4px'};
     background: transparent;
     cursor: pointer;
@@ -48,8 +48,8 @@ export const StyledNavButton = styled.button<{
         bottom: -${spacings.s8};
         left: 50%;
         transform: translateX(-50%);
-        width: 6px;
-        height: 6px;
+        width: ${spacings.s6};
+        height: ${spacings.s6};
         background-color: ${colors.primary};
         border-radius: 50%;
       }
@@ -70,17 +70,17 @@ export const StyledRightSection = styled.div(({ theme }) => {
 });
 
 export const StyledSearchContainer = styled.div(({ theme }) => {
-  const { colors, spacings } = theme;
+  const { colors, spacings, radii } = theme;
 
   return css`
     position: relative;
     display: flex;
     align-items: center;
     border: 1px solid ${colors.primary};
-    border-radius: 24px;
+    border-radius: ${radii.s24};
     padding: ${spacings.s8} ${spacings.s16};
     gap: ${spacings.s8};
-    min-width: 200px;
+    min-width: ${spacings.s200};
   `;
 });
 
@@ -101,12 +101,16 @@ export const StyledSearchInput = styled.input(({ theme }) => {
   `;
 });
 
-export const StyledDropdownCaret = styled.span`
-  display: inline-block;
-  width: 0;
-  height: 0;
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  border-top: 4px solid ${({ theme }) => theme.colors.grey.g4};
-  margin-left: 4px;
-`;
+export const StyledDropdownCaret = styled.span(({ theme }) => {
+  const { spacings } = theme;
+
+  return css`
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid ${theme.colors.grey.g4};
+    margin-left: ${spacings.s4};
+  `;
+});
