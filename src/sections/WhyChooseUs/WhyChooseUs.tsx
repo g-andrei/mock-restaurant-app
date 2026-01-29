@@ -8,7 +8,6 @@ import { Cookie, Hamburger, Whine } from 'src/assets/Icons';
 import { highlightFirstLetters } from 'src/utils/textHelpers';
 import {
   StyledBadge,
-  StyledBadgeLeft,
   StyledBadgeRight,
   StyledBodyText,
   StyledContentContainer,
@@ -21,7 +20,8 @@ import {
   StyledWhyChooseUsContainer
 } from './WhyChooseUs.styled';
 
-const { handText, h2, lgText, smText, mdText, h5, lgTextBold } = TYPOGRAPHY_CONSTANTS;
+const { handText, h2, lgText, smText, mdText, h5, lgTextBold } =
+  TYPOGRAPHY_CONSTANTS;
 
 const WhyChooseUs = () => {
   const { t } = useTranslation();
@@ -35,7 +35,10 @@ const WhyChooseUs = () => {
 
       <StyledContentContainer>
         <StyledTitle>
-          <Typography variant={handText} style={{ color: theme.colors.primary }}>
+          <Typography
+            variant={handText}
+            style={{ color: theme.colors.primary }}
+          >
             {t('whyChooseuse.title')}
           </Typography>
         </StyledTitle>
@@ -61,14 +64,14 @@ const WhyChooseUs = () => {
           </StyledFeatureCard>
 
           <StyledFeatureCard>
-            <Icon IconComponent={Cookie}size={56} />
+            <Icon IconComponent={Cookie} size={56} />
             <Typography variant={mdText} style={{ color: theme.colors.white }}>
               {t('whyChooseuse.lunch')}
             </Typography>
           </StyledFeatureCard>
 
           <StyledFeatureCard>
-            <Icon IconComponent={Whine}  size={56} />
+            <Icon IconComponent={Whine} size={56} />
             <Typography variant={mdText} style={{ color: theme.colors.white }}>
               {t('whyChooseuse.dinner')}
             </Typography>
@@ -76,22 +79,32 @@ const WhyChooseUs = () => {
         </StyledFeaturesRow>
 
         <StyledBadge>
-
-          <div style={{padding: '18px 52px 18px 42px', display:'flex'}}> 
-          <StyledBadgeLeft>
+          <div
+            style={{
+              padding: '18px 52px 18px 42px',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '50px'
+            }}
+          >
             <Typography variant={h2} style={{ color: theme.colors.primary }}>
               {t('whyChooseuse.thirtyYears')}
             </Typography>
-          </StyledBadgeLeft>
 
-          <StyledBadgeRight>
-            <Typography variant={lgText} style={{ color: theme.colors.black.b1 }}>
-              {t('whyChooseuse.years')}
-            </Typography>
-            <Typography variant={lgTextBold} style={{ color: theme.colors.black.b1 }}>
-              {t('whyChooseuse.experienced')}
-            </Typography>
-          </StyledBadgeRight>
+            <StyledBadgeRight>
+              <Typography
+                variant={lgText}
+                style={{ color: theme.colors.black.b1 }}
+              >
+                {t('whyChooseuse.years')}
+              </Typography>
+              <Typography
+                variant={lgTextBold}
+                style={{ color: theme.colors.black.b1 }}
+              >
+                {t('whyChooseuse.experienced')}
+              </Typography>
+            </StyledBadgeRight>
           </div>
         </StyledBadge>
       </StyledContentContainer>

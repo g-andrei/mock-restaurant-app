@@ -14,7 +14,17 @@ export { default as foodCollageWhyChooseUs } from './WhyChooseUs/food-colage-why
 
 export { default as achievementBackground } from './Achievemnt/acvhievemnt-background.png';
 
-export {default as chefEastwood} from './OurChefs/chef-eastwood.png';
-export {default as chefReadfroad} from './OurChefs/chef-readfroad.png';
-export {default as chefScoriesh} from './OurChefs/chef-scoriesh.png';
-export {default as chefWilliam} from './OurChefs/chef-william.png';
+export { default as chefEastwood } from './OurChefs/chef-eastwood.png';
+export { default as chefReadfroad } from './OurChefs/chef-readfroad.png';
+export { default as chefScoriesh } from './OurChefs/chef-scoriesh.png';
+export { default as chefWilliam } from './OurChefs/chef-william.png';
+
+export { default as asparagusPlate } from './ChoosePick/asparagus.png';
+export { default as freshBread } from './ChoosePick/fresh-bread.png';
+export { default as freshBreakfast } from './ChoosePick/fresh-breakfast.png';
+export { default as glowCheese } from './ChoosePick/glow-cheese.png';
+export { default as italianPizza } from './ChoosePick/italian-pizza.png';
+export { default as lettuceLeaf } from './ChoosePick/lettuce-leaf.png';
+export { default as mildButter } from './ChoosePick/mild-butter.png';
+export { default as mushaomPizza } from './ChoosePick/mushaom-pizza.png';
+export { default as sliceBeeef } from './ChoosePick/slice-beef.png';

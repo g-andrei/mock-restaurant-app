@@ -1,15 +1,18 @@
 import { useTranslation } from 'react-i18next';
+
 import { Button, Typography, TYPOGRAPHY_CONSTANTS } from 'src/components';
 import { BUTTON_VARIANT } from 'src/components/Button';
-import { chefsMockData } from 'src/mocks';
+import { chefsMockData } from 'src/mocks/Chefs';
 import { highlightFirstLetters } from 'src/utils/textHelpers';
 import { useTheme } from 'styled-components';
+
 import {
   StyledChefCard,
   StyledChefCardImage,
   StyledChefCardOverlay,
   StyledOurChef,
-  StyledOurChefContainer
+  StyledOurChefContainer,
+  StyledTitlesContainer
 } from './OurChef.styled';
 
 const { handText, h2, h5, lgText } = TYPOGRAPHY_CONSTANTS;
@@ -20,12 +23,14 @@ const OurChef = () => {
 
   return (
     <StyledOurChefContainer>
-      <Typography variant={handText} style={{ color: theme.colors.primary }}>
-        {t('ourChef.title')}
-      </Typography>
-      <Typography variant={h2} style={{ color: theme.colors.white }}>
-        {highlightFirstLetters(t('ourChef.meetOurChefs'))}
-      </Typography>
+      <StyledTitlesContainer>
+        <Typography variant={handText} style={{ color: theme.colors.primary }}>
+          {t('ourChef.title')}
+        </Typography>
+        <Typography variant={h2} style={{ color: theme.colors.white }}>
+          {highlightFirstLetters(t('ourChef.meetOurChefs'))}
+        </Typography>
+      </StyledTitlesContainer>
       <StyledOurChef>
         {chefsMockData.map((chef) => (
           <StyledChefCard key={chef.name}>

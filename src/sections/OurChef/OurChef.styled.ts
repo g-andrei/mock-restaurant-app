@@ -8,8 +8,19 @@ export const StyledOurChefContainer = styled.div(({ theme }) => {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: ${spacings.s120} ${spacings.s300};
-    gap: ${spacings.s48};
+    padding: ${spacings.s60} ${spacings.s300};
+    gap: ${spacings.s56};
+  `;
+});
+
+export const StyledTitlesContainer = styled.div(({ theme }) => {
+  const { spacings } = theme;
+
+  return css`
+    display: flex;
+    flex-direction: column;
+    gap: ${spacings.s8};
+    align-items: center;
   `;
 });
 

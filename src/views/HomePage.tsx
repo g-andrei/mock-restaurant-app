@@ -1,6 +1,7 @@
 import {
   AboutUs,
   Achievement,
+  ChoosePick,
   FoodCategory,
   Header,
   OurChef,
@@ -15,6 +16,7 @@ const HomePage = () => {
       <FoodCategory />
       <WhyChooseUs />
       <Achievement />
+      <ChoosePick />
       <OurChef />
     </>
   );

@@ -9,7 +9,7 @@ export const StyledFoodCategoryContainer = styled.div(({ theme }) => {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: ${spacings.s120} ${spacings.s300};
+    padding: ${spacings.s60} ${spacings.s300};
     gap: ${spacings.s48};
   `;
 });
