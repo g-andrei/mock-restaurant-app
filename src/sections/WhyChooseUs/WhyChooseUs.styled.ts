@@ -7,7 +7,7 @@ export const StyledWhyChooseUsContainer = styled.div(({ theme }) => {
     width: 100%;
     background-color: ${colors.background};
     display: flex;
-    padding: ${spacings.s120} ${spacings.s300};
+    padding: ${spacings.s60} ${spacings.s300} ${spacings.s120};
   `;
 });
 
@@ -92,18 +92,10 @@ export const StyledBadge = styled.div(({ theme }) => {
   `;
 });
 
-export const StyledBadgeLeft = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 96px;
-`;
-
 export const StyledBadgeRight = styled.div(({ theme }) => {
-  const { colors, spacings } = theme;
+  const { colors } = theme;
 
   return css`
-    padding: ${spacings.s12} ${spacings.s24};
     color: ${colors.black.b1};
     display: flex;
     flex-direction: column;

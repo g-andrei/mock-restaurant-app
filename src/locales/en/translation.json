@@ -7,6 +7,13 @@
 
   "button.seeMenu": "See Menu",
   "button.seeMore": "See More",
+  "button.breakfast": "Breakfast",
+  "button.lunch": "Lunch",
+  "button.dinner": "Dinner",
+  "button.dessert": "Dessert",
+  "button.drink": "Drink",
+  "button.snack": "Snack",
+  "button.soups": "Soups",
 
   "header.heroTitle": "The Art of speed food Quality",
   "header.heroSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius sed pharetra dictum neque massa congue.",
@@ -52,5 +59,8 @@
   "ourChef.positionChef": "Chef",
   "ourChef.positionChiefChef": "Chief Chef",
   "ourChef.positionHeadChef": "Head Chef",
-  "ourChef.title": "Chefs"
+  "ourChef.title": "Chefs",
+
+  "choosePick.title": "Choose & Pick",
+  "choosePick.fromOurmenu": "From Our Menu"
 }

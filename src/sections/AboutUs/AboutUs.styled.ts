@@ -7,7 +7,7 @@ export const StyledAboutUsContainer = styled.div(({ theme }) => {
     width: 100%;
     background-color: ${colors.background};
     display: flex;
-    padding: ${spacings.s120} ${spacings.s300};
+    padding: ${spacings.s120} ${spacings.s300} ${spacings.s60};
   `;
 });
 
