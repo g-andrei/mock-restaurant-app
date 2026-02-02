@@ -17,12 +17,16 @@ const spacings: Spacings = {
   s60: '60px',
   s72: '72px',
   s80: '80px',
+  s86: '86px',
   s96: '96px',
   s100: '100px',
   s110: '110px',
   s120: '120px',
+  s132: '132px',
   s200: '200px',
-  s300: '300px'
+  s300: '300px',
+  s400: '400px',
+  s870: '870px'
 };
 
 export default spacings;
