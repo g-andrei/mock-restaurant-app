@@ -1,6 +1,7 @@
 import {
   AboutUs,
   Achievement,
+  ActiveProcess,
   ChoosePick,
   FoodCategory,
   Header,
@@ -20,6 +21,7 @@ const HomePage = () => {
       <ChoosePick />
       <OurChef />
       <Testimonials />
+      <ActiveProcess />
     </>
   );
 };
