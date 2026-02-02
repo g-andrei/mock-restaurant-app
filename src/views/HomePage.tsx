@@ -5,6 +5,7 @@ import {
   FoodCategory,
   Header,
   OurChef,
+  Testimonials,
   WhyChooseUs
 } from 'src/sections';
 
@@ -18,6 +19,7 @@ const HomePage = () => {
       <Achievement />
       <ChoosePick />
       <OurChef />
+      <Testimonials />
     </>
   );
 };

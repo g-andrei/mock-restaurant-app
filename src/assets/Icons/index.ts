@@ -10,7 +10,9 @@ import MagnifyingGlass from './magnifying-glass.svg?react';
 import Pinterest from './pinterest.svg?react';
 import Pizza from './pizza.svg?react';
 import Play from './play.svg?react';
+import Quotes from './quotes.svg?react';
 import Silverware from './silverware.svg?react';
+import Stars from './stars.svg?react';
 import Twitter from './twitter.svg?react';
 import Whine from './whine.svg?react';
 import YouTube from './youtube.svg?react';
@@ -28,7 +30,9 @@ export {
   Pinterest,
   Pizza,
   Play,
+  Quotes,
   Silverware,
+  Stars,
   Twitter,
   Whine,
   YouTube

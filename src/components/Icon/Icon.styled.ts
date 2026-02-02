@@ -2,15 +2,16 @@ import styled, { css } from 'styled-components';
 
 interface SVGContainerProps {
   color?: string;
-  size?: number;
+  width?: number;
+  height?: number;
   hoverColor?: string;
 }
 
 export const StyledSVGContainer = styled.span<SVGContainerProps>(
-  ({ size, color, hoverColor }) => css`
+  ({ width, height, color, hoverColor }) => css`
     svg {
-      width: ${size}px;
-      height: ${size}px;
+      width: ${width}px;
+      height: ${height}px;
 
       path {
         fill: ${color};

@@ -28,3 +28,6 @@ export { default as lettuceLeaf } from './ChoosePick/lettuce-leaf.png';
 export { default as mildButter } from './ChoosePick/mild-butter.png';
 export { default as mushaomPizza } from './ChoosePick/mushaom-pizza.png';
 export { default as sliceBeeef } from './ChoosePick/slice-beef.png';
+
+export { default as testimonialsAvatar } from './Testimonials/testimonials-avatar.png';
+export { default as testimonialsDecor } from './Testimonials/testimonials-decor.png';
