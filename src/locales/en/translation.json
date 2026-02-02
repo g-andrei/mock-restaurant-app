@@ -7,6 +7,7 @@
 
   "button.seeMenu": "See Menu",
   "button.seeMore": "See More",
+  "button.readMore": "Read More",
   "button.breakfast": "Breakfast",
   "button.lunch": "Lunch",
   "button.dinner": "Dinner",
@@ -69,5 +70,9 @@
   "testimonials.alt": "Client avatar",
   "testimonials.content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
   "testimonials.name": "Alamin Hasan",
-  "testimonials.position": "Food Specialist"
+  "testimonials.position": "Food Specialist",
+
+  "activeProcess.title": "Restaurant Active Process",
+  "activeProcess.heading": "We Document Every Food Bean Process untile it is saved",
+  "activeProcess.bodyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendu m. Urna, elit augue urna, "
 }
