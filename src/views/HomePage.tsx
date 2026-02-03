@@ -5,6 +5,7 @@ import {
   ChoosePick,
   FoodCategory,
   Header,
+  LatesBlogPost,
   OurChef,
   Testimonials,
   WhyChooseUs
@@ -22,6 +23,7 @@ const HomePage = () => {
       <OurChef />
       <Testimonials />
       <ActiveProcess />
+      <LatesBlogPost />
     </>
   );
 };

@@ -4,6 +4,7 @@ export { ActiveProcess } from './ActiveProcess';
 export { ChoosePick } from './ChoosePick';
 export { FoodCategory } from './FoodCategory';
 export { Header, NavBar } from './Header';
+export { LatesBlogPost } from './LatesBlogPost';
 export { OurChef } from './OurChef';
 export { Testimonials } from './Testimonials';
 export { WhyChooseUs } from './WhyChooseUs';
