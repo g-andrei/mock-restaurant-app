@@ -32,4 +32,8 @@ export { default as sliceBeeef } from './ChoosePick/slice-beef.png';
 export { default as testimonialsAvatar } from './Testimonials/testimonials-avatar.png';
 export { default as testimonialsDecor } from './Testimonials/testimonials-decor.png';
 
-export { default as backgroundActiveProcess} from './ActiveProcess/background-active-process.png';
+export { default as backgroundActiveProcess } from './ActiveProcess/background-active-process.png';
+
+export { default as blogPostBurger } from './BlogPost/blog-post-burger.png';
+export { default as blogPostPizza } from './BlogPost/blog-post-pizza.png';
+export { default as blogPostTacos } from './BlogPost/blog-post-tacos.png';

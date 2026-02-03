@@ -8,6 +8,7 @@
   "button.seeMenu": "See Menu",
   "button.seeMore": "See More",
   "button.readMore": "Read More",
+  "button.learMore": "Learn More",
   "button.breakfast": "Breakfast",
   "button.lunch": "Lunch",
   "button.dinner": "Dinner",
@@ -74,5 +75,8 @@
 
   "activeProcess.title": "Restaurant Active Process",
   "activeProcess.heading": "We Document Every Food Bean Process untile it is saved",
-  "activeProcess.bodyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendu m. Urna, elit augue urna, "
+  "activeProcess.bodyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendu m. Urna, elit augue urna, ",
+
+  "latesBlogPost.title": "Blog Post",
+  "latesBlogPost.heading": "Latest News & Blog "
 }
