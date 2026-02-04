@@ -1,7 +1,6 @@
 import { useTranslation } from 'react-i18next';
 
-import { Button, Typography, TYPOGRAPHY_CONSTANTS } from 'src/components';
-import { BUTTON_VARIANT } from 'src/components/Button';
+import { Button, BUTTON_VARIANT, Typography, TYPOGRAPHY_CONSTANTS } from 'src/components';
 import { chefsMockData } from 'src/mocks/Chefs';
 import { highlightFirstLetters } from 'src/utils/textHelpers';
 import { useTheme } from 'styled-components';

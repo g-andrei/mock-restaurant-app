@@ -4,6 +4,7 @@ import {
   ActiveProcess,
   ChoosePick,
   FoodCategory,
+  Footer,
   Header,
   LatesBlogPost,
   OurChef,
@@ -24,6 +25,7 @@ const HomePage = () => {
       <Testimonials />
       <ActiveProcess />
       <LatesBlogPost />
+      <Footer />
     </>
   );
 };

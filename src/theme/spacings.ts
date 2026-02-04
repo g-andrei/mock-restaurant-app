@@ -7,6 +7,7 @@ const spacings: Spacings = {
   s8: '8px',
   s12: '12px',
   s16: '16px',
+  s18: '18px',
   s20: '20px',
   s22: '22px',
   s24: '24px',
@@ -25,8 +26,10 @@ const spacings: Spacings = {
   s110: '110px',
   s120: '120px',
   s132: '132px',
+  s142: '142px',
   s200: '200px',
   s300: '300px',
+  s360: '360px',
   s400: '400px',
   s870: '870px'
 };
