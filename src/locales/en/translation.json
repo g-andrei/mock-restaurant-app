@@ -16,6 +16,7 @@
   "button.drink": "Drink",
   "button.snack": "Snack",
   "button.soups": "Soups",
+  "button.subscribe": "Subscribe Now",
 
   "header.heroTitle": "The Art of speed food Quality",
   "header.heroSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius sed pharetra dictum neque massa congue.",
@@ -78,5 +79,9 @@
   "activeProcess.bodyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendu m. Urna, elit augue urna, ",
 
   "latesBlogPost.title": "Blog Post",
-  "latesBlogPost.heading": "Latest News & Blog "
+  "latesBlogPost.heading": "Latest News & Blog ",
+
+  "footerSubscribe.title": "Still You Need Our Support ?",
+  "footerSubscribe.description": "Don’t wait make a smart & logical quote here. Its pretty easy.",
+  "footerSubscribe.placeholder": "Enter Your Email"
 }

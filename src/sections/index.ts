@@ -3,6 +3,7 @@ export { Achievement } from './Achievement';
 export { ActiveProcess } from './ActiveProcess';
 export { ChoosePick } from './ChoosePick';
 export { FoodCategory } from './FoodCategory';
+export { Footer } from './Footer';
 export { Header, NavBar } from './Header';
 export { LatesBlogPost } from './LatesBlogPost';
 export { OurChef } from './OurChef';
