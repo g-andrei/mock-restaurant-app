@@ -83,5 +83,29 @@
 
   "footerSubscribe.title": "Still You Need Our Support ?",
   "footerSubscribe.description": "Don’t wait make a smart & logical quote here. Its pretty easy.",
-  "footerSubscribe.placeholder": "Enter Your Email"
+  "footerSubscribe.placeholder": "Enter Your Email",
+
+  "footer.aboutUsTitle": "About Us.",
+  "footer.aboutUsText": "Corporate clients and leisure travelers have been relying on Groundlink for dependable, safe, and professional chauffeured car service in major cities across the world.",
+
+  "footer.openingHouresTitle": "Opening Hours",
+  "footer.openingHouresText": "Mon - Sat(8.00 - 6.00)",
+  "footer.openingHouresText2": " Sunday - Closed",
+
+  "footer.usefulLinksTitle": "Useful Links",
+  "footer.about": "About",
+  "footer.news": "News",
+  "footer.partners": "Partners",
+  "footer.team": "Team",
+  "footer.menu": "Menu",
+  "footer.contacts": "Contacts",
+  "footer.helpTitle": "Help?",
+
+  "footer.faq": "FAQ",
+  "footer.termAndConditions": "Term & conditions",
+  "footer.reporting": "Reporting",
+  "footer.documentation": "Documentation",
+  "footer.supportPolicy": "Support Policy",
+  "footer.privacy": "Privacy",
+  "footer.recentPostTitle": "Recent Post"
 }

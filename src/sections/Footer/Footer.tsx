@@ -1,4 +1,5 @@
 import FooterDecorator from './FooterDecorator';
+import FooterNavigation from './FooterNavigation';
 import Subscribe from './Subscribe';
 
 const Footer = () => {
@@ -6,6 +7,7 @@ const Footer = () => {
     <>
       <Subscribe />
       <FooterDecorator />
+      <FooterNavigation />
     </>
   );
 };

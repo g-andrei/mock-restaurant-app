@@ -1,6 +1,7 @@
 import ChatDots from './chat_dots.svg?react';
 import Check from './check.svg?react';
 import Chef from './chef.svg?react';
+import Clock from './clock.svg?react';
 import Cookie from './cookie.svg?react';
 import FaceBook from './facebook.svg?react';
 import Food from './food.svg?react';
@@ -24,6 +25,7 @@ export {
   ChatDots,
   Check,
   Chef,
+  Clock,
   Cookie,
   FaceBook,
   Food,
