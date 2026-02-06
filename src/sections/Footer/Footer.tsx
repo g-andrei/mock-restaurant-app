@@ -1,7 +1,13 @@
+import FooterDecorator from './FooterDecorator';
 import Subscribe from './Subscribe';
 
 const Footer = () => {
-  return <Subscribe />;
+  return (
+    <>
+      <Subscribe />
+      <FooterDecorator />
+    </>
+  );
 };
 
 export default Footer;
