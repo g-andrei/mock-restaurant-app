@@ -2,6 +2,7 @@ import { Spacings } from './theme';
 
 const spacings: Spacings = {
   none: '0px',
+  s2: '2px',
   s4: '4px',
   s6: '6px',
   s8: '8px',
@@ -13,9 +14,11 @@ const spacings: Spacings = {
   s24: '24px',
   s30: '30px',
   s32: '32px',
+  s34: '34px',
   s40: '40px',
   s42: '42px',
   s48: '48px',
+  s50: '50px',
   s56: '56px',
   s60: '60px',
   s72: '72px',
