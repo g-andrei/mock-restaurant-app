@@ -1,11 +1,10 @@
 import styled, { css } from 'styled-components';
 
 export const StyledFooterNavigationContainer = styled.div(({ theme }) => {
-  const { colors, spacings } = theme;
+  const { spacings } = theme;
 
   return css`
-    padding: 0 ${spacings.s300} ${spacings.s50};
-    background-color: ${colors.background};
+    padding: 0 0 ${spacings.s50};
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: ${spacings.s48};

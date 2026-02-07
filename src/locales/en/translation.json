@@ -107,5 +107,7 @@
   "footer.documentation": "Documentation",
   "footer.supportPolicy": "Support Policy",
   "footer.privacy": "Privacy",
-  "footer.recentPostTitle": "Recent Post"
+  "footer.recentPostTitle": "Recent Post",
+
+  "footer.copyright": "Copyright © 2022 by Ayeman. All Rights Reserved."
 }
