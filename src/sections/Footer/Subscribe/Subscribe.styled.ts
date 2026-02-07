@@ -1,14 +1,15 @@
 import styled, { css } from 'styled-components';
 
 export const StyledSubscribeContainer = styled.div(({ theme }) => {
-  const { colors, spacings } = theme;
+  const { spacings } = theme;
 
   return css`
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    padding: ${spacings.s60} ${spacings.s360};
-    background-color: ${colors.background};
+    padding: ${spacings.s60} 0;
+    width: calc(100% - ${spacings.s120});
+    margin: 0 auto;
   `;
 });
 

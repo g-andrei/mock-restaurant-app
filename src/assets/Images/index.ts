@@ -37,3 +37,5 @@ export { default as backgroundActiveProcess } from './ActiveProcess/background-a
 export { default as blogPostBurger } from './BlogPost/blog-post-burger.png';
 export { default as blogPostPizza } from './BlogPost/blog-post-pizza.png';
 export { default as blogPostTacos } from './BlogPost/blog-post-tacos.png';
+
+export { default as footerLeaf } from './Footer/footer-leaf.png';
