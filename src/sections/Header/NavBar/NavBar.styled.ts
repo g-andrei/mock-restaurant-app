@@ -1,25 +1,41 @@
 import styled, { css } from 'styled-components';
 
-export const StyledNavBarContainer = styled.nav(({ theme }) => {
-  const { spacings } = theme;
+export const StyledNavBarContainer = styled.nav<{
+  $isHomePage?: boolean;
+}>(({ theme, $isHomePage }) => {
+  const { spacings, colors } = theme;
 
   return css`
-    width: 100%;
-    padding: ${spacings.s24} ${spacings.s300};
+    padding: ${spacings.s30} ${spacings.s300};
+    background-color: ${$isHomePage ? 'transparent' : colors.background};
   `;
 });
+
+export const StyledNavBarContent = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
 
 export const StyledNavLinks = styled.ul(({ theme }) => {
   const { spacings } = theme;
 
   return css`
-    list-style: none;
     display: flex;
     align-items: center;
     gap: ${spacings.s32};
-    margin: 0;
-    padding: 0;
     flex: 1;
+    justify-content: center;
+  `;
+});
+
+export const StyledIconsSection = styled.div(({ theme }) => {
+  const { spacings } = theme;
+
+  return css`
+    display: flex;
+    align-items: center;
+    gap: ${spacings.s16};
   `;
 });
 

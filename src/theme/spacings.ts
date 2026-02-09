@@ -27,6 +27,7 @@ const spacings: Spacings = {
   s86: '86px',
   s96: '96px',
   s100: '100px',
+  s108: '108px',
   s110: '110px',
   s120: '120px',
   s132: '132px',

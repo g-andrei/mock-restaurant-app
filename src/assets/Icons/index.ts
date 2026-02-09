@@ -18,6 +18,7 @@ import ShareNetwork from './share_network.svg?react';
 import Silverware from './silverware.svg?react';
 import Stars from './stars.svg?react';
 import Twitter from './twitter.svg?react';
+import User from './user.svg?react';
 import Whine from './whine.svg?react';
 import YouTube from './youtube.svg?react';
 
@@ -42,6 +43,7 @@ export {
   Silverware,
   Stars,
   Twitter,
+  User,
   Whine,
   YouTube
 };

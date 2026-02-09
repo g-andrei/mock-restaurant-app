@@ -1,3 +1,4 @@
+import { useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import {
   FaceBook,
@@ -20,9 +21,11 @@ const CopyrightBar = () => {
   const theme = useTheme();
   const { t } = useTranslation();
   const { colors } = theme;
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
 
   return (
-    <StyledCopyrightbarContaienr>
+    <StyledCopyrightbarContaienr $isHomePage={isHomePage}>
       <Typography variant={smText} style={{ color: theme.colors.white }}>
         {t('footer.copyright')}
       </Typography>
