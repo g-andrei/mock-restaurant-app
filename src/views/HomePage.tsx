@@ -4,8 +4,6 @@ import {
   ActiveProcess,
   ChoosePick,
   FoodCategory,
-  Footer,
-  Header,
   LatesBlogPost,
   OurChef,
   Testimonials,
@@ -15,7 +13,6 @@ import {
 const HomePage = () => {
   return (
     <>
-      <Header />
       <AboutUs />
       <FoodCategory />
       <WhyChooseUs />
@@ -25,7 +22,6 @@ const HomePage = () => {
       <Testimonials />
       <ActiveProcess />
       <LatesBlogPost />
-      <Footer />
     </>
   );
 };

@@ -1,6 +1,8 @@
 import styled, { css } from 'styled-components';
 
-export const StyledCopyrightbarContaienr = styled.div(({ theme }) => {
+export const StyledCopyrightbarContaienr = styled.div<{
+  $isHomePage?: boolean;
+}>(({ theme, $isHomePage }) => {
   const { spacings, colors } = theme;
 
   return css`
@@ -8,7 +10,7 @@ export const StyledCopyrightbarContaienr = styled.div(({ theme }) => {
     align-items: center;
     justify-content: space-between;
     padding: ${spacings.s32} ${spacings.s300};
-    background-color: ${colors.primary};
+    background-color: ${$isHomePage ? colors.primary : colors.grey.g2};
   `;
 });
 

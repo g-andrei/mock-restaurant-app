@@ -8,6 +8,7 @@ export { default as aboutUsSandwich } from './AboutUs/about-us-sandwich.png';
 export { default as aboutUsSauce } from './AboutUs/about-us-sauce.png';
 
 export { default as headerHeroBackground } from './Header/header-hero-background.png';
+export { default as headerHeroPages } from './Header/header-hero-pages.png';
 export { default as headerHero } from './Header/header-hero.png';
 
 export { default as foodCollageWhyChooseUs } from './WhyChooseUs/food-colage-why-choose-us.png';
