@@ -17,6 +17,18 @@
   "button.snack": "Snack",
   "button.soups": "Soups",
   "button.subscribe": "Subscribe Now",
+  "button.goHome": "Go to home",
+
+  "page.404": "404 Error",
+  "page.ourMenu": "Our Menu",
+  "page.ourShop": "Our Shop",
+  "page.shopDetails": "Shop Details",
+  "page.shoppingCart": "Shopping Cart",
+
+  "notFound.404": "404",
+  "notFound.title": "Oops! Look likes something going wrong",
+  "notFound.notFound": "Page Cannot be found! we’ll have it figured out in no time.",
+  "notFound.while": "Menwhile, cheek out these fresh ideas:",
 
   "header.heroTitle": "The Art of speed food Quality",
   "header.heroSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius sed pharetra dictum neque massa congue.",
