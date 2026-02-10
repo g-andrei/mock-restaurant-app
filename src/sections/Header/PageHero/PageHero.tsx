@@ -30,8 +30,11 @@ const PageHero = ({ title }: PageHeroProps) => {
     if (path === '/cart') {
       return 'Home > Shopping Cart';
     }
-    return 'Home';
+    return 'Home > 404';
   };
+
+  console.log(location);
+  console.log(getBreadcrumb());
 
   const breadcrumb = getBreadcrumb();
   const breadcrumbParts = breadcrumb.split(' > ');
