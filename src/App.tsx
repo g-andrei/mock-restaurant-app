@@ -1,8 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Layout from './components/Layout';
 import './i18n';
+import { CartPage, HomePage, MenuPage } from './pages';
+
 import './index.css';
-import { CartPage, HomePage, MenuPage } from './views';
 
 function App() {
   return (
