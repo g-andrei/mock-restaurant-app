@@ -18,12 +18,29 @@
   "button.soups": "Soups",
   "button.subscribe": "Subscribe Now",
   "button.goHome": "Go to home",
+  "button.backHome": "Back Home",
+  "button.viewMenu": "View Menu",
 
   "page.404": "404 Error",
   "page.ourMenu": "Our Menu",
   "page.ourShop": "Our Shop",
   "page.shopDetails": "Shop Details",
   "page.shoppingCart": "Shopping Cart",
+  "page.pages": "Pages",
+  "page.about": "About",
+  "page.contact": "Contact",
+  "page.news": "News",
+  "page.partners": "Partners",
+  "page.team": "Team",
+  "page.contacts": "Contacts",
+  "page.faq": "FAQ",
+  "page.termAndConditions": "Term & Conditions",
+  "page.reporting": "Reporting",
+  "page.documentation": "Documentation",
+  "page.supportPolicy": "Support Policy",
+  "page.privacy": "Privacy",
+
+  "breadcrumb.home": "Home",
 
   "notFound.404": "404",
   "notFound.title": "Oops! Look likes something going wrong",
@@ -121,5 +138,9 @@
   "footer.privacy": "Privacy",
   "footer.recentPostTitle": "Recent Post",
 
-  "footer.copyright": "Copyright © 2022 by Ayeman. All Rights Reserved."
+  "footer.copyright": "Copyright © 2022 by Ayeman. All Rights Reserved.",
+
+  "underConstruction.title": "Under Construction",
+  "underConstruction.oops": "Oops! This page is still under construction.",
+  "underConstruction.message": "Meanwhile, why not check out our menu and discover your next favorite dish?"
 }
