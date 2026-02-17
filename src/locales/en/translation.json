@@ -142,5 +142,8 @@
 
   "underConstruction.title": "Under Construction",
   "underConstruction.oops": "Oops! This page is still under construction.",
-  "underConstruction.message": "Meanwhile, why not check out our menu and discover your next favorite dish?"
+  "underConstruction.message": "Meanwhile, why not check out our menu and discover your next favorite dish?",
+
+  "partnersAndClients.title": "Partners & Clients",
+  "partnersAndClients.subtitle": "We work with the best people"
 }

@@ -9,6 +9,7 @@ import {
   TYPOGRAPHY_CONSTANTS
 } from 'src/components';
 
+import { Link } from 'react-router-dom';
 import DecoratorLine from './DecoratorLine';
 import {
   StyledHeaderBodyContainer,
@@ -43,7 +44,9 @@ const HeaderBody = () => {
         <Typography variant="smText" style={{ color: 'white' }}>
           {t('header.heroSubtitle')}
         </Typography>
-        <Button rounded>{t('button.seeMenu')}</Button>
+        <Link to="/menu">
+          <Button rounded>{t('button.seeMenu')}</Button>
+        </Link>
       </StyledHeaderBodyContent>
       <div>
         <img

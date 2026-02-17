@@ -72,8 +72,7 @@ const FooterNavigation = () => {
         <StyledLinksList>
           {usefulLinks(t).map((link) => (
             <StyledLinkItem key={link.title}>
-              {/* TODO: Add link component */}
-              <StyledLink>
+              <StyledLink to={link.href}>
                 <Typography variant={lgText}>{link.title}</Typography>
               </StyledLink>
             </StyledLinkItem>
@@ -90,8 +89,7 @@ const FooterNavigation = () => {
         <StyledLinksList>
           {helpLinks(t).map((link) => (
             <StyledLinkItem key={link.title}>
-              {/* TODO: Add link component */}
-              <StyledLink>
+              <StyledLink to={link.href}>
                 <Typography variant={lgText}>{link.title}</Typography>
               </StyledLink>
             </StyledLinkItem>

@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Layout from './components/Layout';
 import { ROUTES_CONSTANTS } from './constants/routes';
 import './i18n';
-import { HomePage, NotFoundPage, UnderConstruction } from './pages';
+import { HomePage, MenuPage, NotFoundPage, UnderConstruction } from './pages';
 
 import './index.css';
 
@@ -17,9 +17,9 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
 
-          {/* 
           <Route path="menu" element={<MenuPage />} />
-          <Route path="cart" element={<CartPage />} /> */}
+
+          {/* <Route path="cart" element={<CartPage />} />  */}
 
           {underConstructionRoutes.map((route) => (
             <Route key={route} path={route} element={<UnderConstruction />} />
