@@ -1,24 +1,19 @@
-export { default as categoryBurgers } from './Category/category-burgers.png';
-export { default as categoryDesserts } from './Category/category-desserts.png';
-export { default as categoryMain } from './Category/category-main.png';
-export { default as categorySalads } from './Category/category-salads.png';
-
 export { default as aboutUsEggs } from './AboutUs/about-us-eggs.png';
 export { default as aboutUsSandwich } from './AboutUs/about-us-sandwich.png';
 export { default as aboutUsSauce } from './AboutUs/about-us-sauce.png';
 
-export { default as headerHeroBackground } from './Header/header-hero-background.png';
-export { default as headerHeroPages } from './Header/header-hero-pages.png';
-export { default as headerHero } from './Header/header-hero.png';
-
-export { default as foodCollageWhyChooseUs } from './WhyChooseUs/food-colage-why-choose-us.png';
-
 export { default as achievementBackground } from './Achievemnt/acvhievemnt-background.png';
 
-export { default as chefEastwood } from './OurChefs/chef-eastwood.png';
-export { default as chefReadfroad } from './OurChefs/chef-readfroad.png';
-export { default as chefScoriesh } from './OurChefs/chef-scoriesh.png';
-export { default as chefWilliam } from './OurChefs/chef-william.png';
+export { default as backgroundActiveProcess } from './ActiveProcess/background-active-process.png';
+
+export { default as blogPostBurger } from './BlogPost/blog-post-burger.png';
+export { default as blogPostPizza } from './BlogPost/blog-post-pizza.png';
+export { default as blogPostTacos } from './BlogPost/blog-post-tacos.png';
+
+export { default as categoryBurgers } from './Category/category-burgers.png';
+export { default as categoryDesserts } from './Category/category-desserts.png';
+export { default as categoryMain } from './Category/category-main.png';
+export { default as categorySalads } from './Category/category-salads.png';
 
 export { default as asparagusPlate } from './ChoosePick/asparagus.png';
 export { default as freshBread } from './ChoosePick/fresh-bread.png';
@@ -30,13 +25,30 @@ export { default as mildButter } from './ChoosePick/mild-butter.png';
 export { default as mushaomPizza } from './ChoosePick/mushaom-pizza.png';
 export { default as sliceBeeef } from './ChoosePick/slice-beef.png';
 
+export { default as footerLeaf } from './Footer/footer-leaf.png';
+
+export { default as menuDecorativeDessert } from './FullMenu/dessert.png';
+export { default as menuDecorativeDrinks } from './FullMenu/drinks.png';
+export { default as menuDecorativeMain } from './FullMenu/main-course.png';
+export { default as menuDecorativeStarter } from './FullMenu/starter-menu.png';
+
+export { default as headerHeroBackground } from './Header/header-hero-background.png';
+export { default as headerHeroPages } from './Header/header-hero-pages.png';
+export { default as headerHero } from './Header/header-hero.png';
+
+export { default as chefEastwood } from './OurChefs/chef-eastwood.png';
+export { default as chefReadfroad } from './OurChefs/chef-readfroad.png';
+export { default as chefScoriesh } from './OurChefs/chef-scoriesh.png';
+export { default as chefWilliam } from './OurChefs/chef-william.png';
+
 export { default as testimonialsAvatar } from './Testimonials/testimonials-avatar.png';
 export { default as testimonialsDecor } from './Testimonials/testimonials-decor.png';
 
-export { default as backgroundActiveProcess } from './ActiveProcess/background-active-process.png';
+export { default as foodCollageWhyChooseUs } from './WhyChooseUs/food-colage-why-choose-us.png';
 
-export { default as blogPostBurger } from './BlogPost/blog-post-burger.png';
-export { default as blogPostPizza } from './BlogPost/blog-post-pizza.png';
-export { default as blogPostTacos } from './BlogPost/blog-post-tacos.png';
-
-export { default as footerLeaf } from './Footer/footer-leaf.png';
+export { default as bakeryPartner } from './Partners/bakery-partner.png';
+export { default as bistroPartner } from './Partners/bistro-partner.png';
+export { default as forkPartner } from './Partners/fork-partner.png';
+export { default as restaurantPartner } from './Partners/restaurant-partner.png';
+export { default as sweetBakeryPartner } from './Partners/sweet-bakery-partner.png';
+export { default as wolfPartner } from './Partners/wolf-partner.png';

@@ -8,6 +8,7 @@ import { Button, Icon, Typography } from 'src/components';
 import { TYPOGRAPHY_CONSTANTS } from 'src/components/Typography';
 import { highlightFirstLetters } from 'src/utils/textHelpers';
 
+import { Link } from 'react-router-dom';
 import {
   StyledAboutUsContainer,
   StyledAboutUsLeft,
@@ -52,26 +53,19 @@ const AboutUs = () => {
           </StyledTextStack>
 
           <div>
-            <Button rounded>{t('button.seeMenu')}</Button>
+            <Link to="/menu">
+              <Button rounded>{t('button.seeMenu')}</Button>
+            </Link>
           </div>
         </StyledContentStack>
       </StyledAboutUsLeft>
 
       <StyledAboutUsRight>
-        <StyledFullWidthImage
-          src={aboutUsEggs}
-          alt="About us eggs"
-        />
+        <StyledFullWidthImage src={aboutUsEggs} alt="About us eggs" />
 
         <StyledHalfImagesRow>
-          <StyledHalfWidthImage
-            src={aboutUsSauce}
-            alt="About us sauce"
-          />
-          <StyledHalfWidthImage
-            src={aboutUsSandwich}
-            alt="About us sandwich"
-          />
+          <StyledHalfWidthImage src={aboutUsSauce} alt="About us sauce" />
+          <StyledHalfWidthImage src={aboutUsSandwich} alt="About us sandwich" />
         </StyledHalfImagesRow>
       </StyledAboutUsRight>
     </StyledAboutUsContainer>

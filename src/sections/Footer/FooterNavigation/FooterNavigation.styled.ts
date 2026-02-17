@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled, { css } from 'styled-components';
 
 export const StyledFooterNavigationContainer = styled.div(({ theme }) => {
@@ -89,12 +90,21 @@ export const StyledLinkItem = styled.li(({ theme }) => {
   `;
 });
 
-export const StyledLink = styled.div(({ theme }) => {
+export const StyledLink = styled(Link)(({ theme }) => {
   const { colors } = theme;
 
   return css`
     color: ${colors.white};
+    text-decoration: none;
     cursor: pointer;
+
+    &:hover {
+      color: ${colors.white};
+    }
+
+    &:visited {
+      color: ${colors.white};
+    }
   `;
 });
 

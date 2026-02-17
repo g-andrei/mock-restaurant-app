@@ -1,5 +1,6 @@
+import { Achievement } from 'src/sections';
 import { AboutUs } from './AboutUs';
-import { Achievement } from './Achievement';
+
 import { ActiveProcess } from './ActiveProcess';
 import { ChoosePick } from './ChoosePick';
 import { FoodCategory } from './FoodCategory';
