@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Layout from './components/Layout';
+
+import { Layout, ScrollToTop } from './components';
 import { ROUTES_CONSTANTS } from './constants/routes';
 import './i18n';
 import { HomePage, MenuPage, NotFoundPage, UnderConstruction } from './pages';
@@ -13,6 +14,7 @@ const underConstructionRoutes = Object.keys(ROUTES_CONSTANTS).map((path) =>
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
