@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import { Layout, ScrollToTop } from './components';
+import { Layout, ScrollToTop } from './components/Layout';
 import { ROUTES_CONSTANTS } from './constants/routes';
 import './i18n';
 import { HomePage, MenuPage, NotFoundPage, UnderConstruction } from './pages';
